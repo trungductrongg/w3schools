@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    float: left;
+}
+
+.header .logo{
+    width: 3cm;
+    float: left;
+}
+.header .menu-left{
+    width:30% ;
+    height: 3cm;
+    float: left;
+    background: #fff;
+    border-radius: 5px;
+    position: sticky;
+    flex-basis: 5rem;
+}
+.header .menu-right{
+    width: 50%;
+    margin-right: 40px;
+    float: right;
+}
+.header  ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header .menu-left ul li{
+    list-style: none;
+    float: left;
+    line-height: 3cm;
+    margin: 0 20px;
+}
+.header .menu-right ul li{
+    list-style: none;
+    float: right;
+    line-height: 3cm;
+    margin: 0 20px;
+}
+.container-html{
+    width: 100%;
+    background: #282a35;
+    height: 30rem;
+}
+.container-html .left{
+    float: left;
+    width: 46%;
+    padding-top: 10rem;
+
+}
+.container-html .left ul li{
+    color: #fff;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container-html .left ul li a{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+#fix2{
+    height: 1cm;
+    font-size: 5px;
+    margin: 1.5rem;
+    list-style: none;
+    color: #fff;
+}
+#fix{
+    font-size:20px ;
+}
+.container-css{
+    width: 100%;
+    background: #d9eee1;
+    height: 30.5rem;
+}
+.container-css .left{
+    width: 46%;
+    padding-top: 10rem;
+    float: left;
+}
+.container-css .left ul li{
+    color: #000000;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container-css .left ul li a{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: rgb(7, 7, 7);
+}
+
+.container-js{
+    width: 100%;
+    background: #fff4a3;
+    height: 30.5rem;
+}
+.container-js .left{
+    width: 46%;
+    padding-top: 10rem;
+    float: left;
+}
+.container-js .left ul li{
+    color: #000000;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container-js .left ul li a{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: rgb(7, 7, 7);
+}
+
+.container-slq{
+    width: 100%;
+    background: #ffffff;
+    height: 30.5rem;
+}
+.container-slq .left{
+    width: 46%;
+    padding-top: 10rem;
+    float: left;
+}
+.container-slq .left ul li{
+    color: #000000;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container-slq .left ul li a{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: rgb(7, 7, 7);
+}
+
+
+.exemple{
+    border: solid 0.5px;
+    height: 24.5rem;
+    margin: 3rem 6.5%;
+    width: 40%;
+    float: right;
+    background: #e7e9eb;
+    border-radius: 5px;
+}
+.exemple .code{
+    border-left: solid 5px #04aa6d ;
+    height: 15rem;
+    background: #fff;
+    width: 90%;
+    margin: 2% 5%  5%;
+}
+.exemple .Try{
+    background: #04aa6d;
+    width: 5.5cm;
+    height: 1cm;
+    margin-left: 5%;
+    border-radius: 5rem;
+}
+.exemple li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5%;
+    padding-top: 1.5rem;
+}
+#tryfix{
+    padding-top:5px;
+    padding-left: 8px;
+}
+.exemple .Try li a{
+    text-decoration: none;
+}
+#rem{
+    height: 31rem;
+}
+
+.conlai{
+    width: 100%;
+    height: auto;
+    background: #282a35;
+    float: left;
+}
+.New-item{
+    border-radius: 7px;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 7%;
+    padding-top: 1rem;
+    background: #ffc0c7;
+    width: 40%;
+    height: 5cm;
+}
+.conlai .New-item li{
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    margin: 1rem;
+}
+.conlai .New-item li a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.2cm;
+}
+.php{
+    background: #282a35;
+    height: 1.2cm;
+    width: 40%;
+    margin: 0 30%;
+    border-radius: 1rem;
+}
+#php{
+    font-size: 50px;
+    font-weight: bold;
+}
+#JQ{
+    background: #fff4a3;
+}
+#java{
+    background: #f3ecea;
+}
+#C{
+    background: #d9eee1;
+}
+#Wcss{
+    padding-top: 1.8cm;
+    height: 6cm;
+    background: #96d4d4;
+}
+#Wcsss{
+    background: #96d4d4;
+
+}
+#Boot{
+    padding-top: 1.8cm;
+    height: 6cm;
+    background: #e7e9eb;
+}
+#boot2{
+    background: #ded8d8;
+}
+#pink{
+    background: #ffc0c7;
+
+}
+#Ex{
+    background: #089d67;
+}
+.new-icon{
+    text-align: center;
+    border-radius: 7px;
+    float: left;
+    margin-left: 7%;
+    background: #ffc0c7;
+    width: 16.5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 3.5cm;
+}
+.font{
+    line-height: 3.5cm;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#fix-item1{
+    text-align: center;
+    height: 3.5cm;
+}
+#fix-item2{
+    text-align: center;
+    height: 3.5cm;
+    background: #ded8d8;
+}
+#fix-item3{
+    text-align: center;
+    height: 3.5cm;
+    background: #fff4a3;
+}
+.color-picker{
+    height: 30rem;
+    background: #fff;
+    text-align: center;
+}
+.color-picker li{
+    font-weight: bold;
+    list-style: none;
+    font-size: 50px;
+    padding-top: 5rem;
+    background: #f3ecea;
+}
+.color-picker img{
+    padding-bottom: 3rem;
+}
+#fontt{
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 1.5rem;
+}
+.game{
+    height: 30rem;
+    background:#96d4d4;
+    text-align: center;
+}
+.game li{
+    font-weight: bold;
+    list-style: none;
+    font-size: 50px;
+    padding-top: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.game .play{
+    width: 16%;
+    margin-left: 42%;
+    margin-right: 42%;
+    background: #282a35;
+    height: 1.2cm;
+    border-radius: 3rem;
+    margin-top: 1rem;
+}
+.game .play a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.3cm;
+    color: #fff;
+}
+.equiz{
+    height: 30rem;
+    background:#222632;
+    text-align: center;
+}
+.equiz li{
+    list-style: none;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 5rem;
+    color: #fff;
+}
+#fonttt{
+    font-size: 30px;
+}
+.Ex{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right:5%;
+    background: #05a66b;
+    height: 4.5cm;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+.Exx{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right:5%;
+    background: #05a66b;
+    height: 4.5cm;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+.Ex li{
+}
+.Ex a{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 4.5cm;
+}
+.Exx a{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 4.5cm;
+}
+
+#quiz{
+    background: #fff4a3;
+}
+.web{
+    background: #e7e9eb;
+    text-align: center;
+}
+.web li{
+    padding-top: 5rem;
+    list-style: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+.web img{
+    padding-top: 2rem;
+}
+#font4{
+    padding-top: 1rem;
+    font-size: 20px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #282a35;
+}
+footer .cou{
+    width: 50%;
+    height: 10cm;
+    background: #282a35;
+    text-align: center;
+}
+.coureses{
+    width: 15%;
+    float: left;
+    height: 3rem;
+    background: #282a35;
+    margin: 2%;
+}
+.forum{
+    width: 50%;
+    float: right;
+}
+.about{
+    text-align: center  ;
+    width: 15%;
+    float: right;
+    height: 3rem;
+    background: #282a35;
+    margin: 2%;
+}
+footer .cou span{
+    font-size: 20px;
+    line-height: 3rem;
+    color: white;
+}
+footer .about span{
+    font-size: 20px;
+    line-height: 3rem;
+    color: white;
+}
+.icons{
+    text-align: center  ;
+    width: 100%;
+    float: right;
+    height: 1rem;
+    background: #282a35;
+    margin: 2%;
+}
+.word{
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
+    color: #fff;
+}
+.word span{
+    font-weight: bold;
+}
+.shop{
+    text-align: center;
+    height: 1.7cm;
+    background: #089d67;
+    width: 50%;
+    margin-left:25%;
+    margin-top: 5rem;
+    border-radius: 5rem;
+
+
+}
+.shop li{
+    list-style: none;
+}
+.shop li a{
+    line-height: 1.7cm;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.mau{
+    height: 3rem;
+    background: #282a35;
+
+}
